@@ -3,7 +3,7 @@ package main
 import "net"
 
 func handler(c net.Conn) {
-    c.Write([]byte("jørgen"))
+    c.Write([]byte("ok"))
     c.Close()
 }
 
